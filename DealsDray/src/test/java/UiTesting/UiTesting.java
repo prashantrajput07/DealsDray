@@ -15,6 +15,7 @@ public class UiTesting{
     public static void main(String[] args) {
      
         WebDriver driver = new ChromeDriver();
+        driver.manage().window().maximize();
         String url = "https://www.getcalley.com/page-sitemap.xml";
            Dimension[] resolutions = {
             new Dimension(1920, 1080),
